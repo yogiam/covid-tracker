@@ -17,7 +17,7 @@ export default {
     props: ['text', 'fetchedOn'],
     computed: {
         timestamp: function() {
-            return moment(this.etchedOn).format('MMMM Do YYYY, h:mm:ss a')
+            return moment(this.fetchedOn).format('MMMM Do YYYY, h:mm:ss a')
         }
     },
 }
